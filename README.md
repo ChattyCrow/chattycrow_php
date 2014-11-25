@@ -5,14 +5,7 @@ Crow](http://chattycrow.com/crow3logo.png)](http://chattycrow.com)
 
 ## Instalation
 
-1. Install composer
-
-```sh
-curl -s https://getcomposer.org/installer | php
-```
-
-2. Add chattycrow as a dependency to your *composer.json*
-
+### Add ChattyCrow as a dependency to your *composer.json*
 ```json
 {
   "repositories": [
@@ -27,8 +20,7 @@ curl -s https://getcomposer.org/installer | php
 }
 ```
 
-3. Install ChattyCrow
-
+### Install ChattyCrow
 ```sh
 php composer.phar install
 ```
