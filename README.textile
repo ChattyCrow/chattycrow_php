@@ -1,0 +1,29 @@
+!https://avatars1.githubusercontent.com/u/9012750?v=3&s=200!
+
+h1. ChattyCrow - PHP Library
+
+!https://travis-ci.org/ChattyCrow/chattycrow_php.svg!:https://travis-ci.org/ChattyCrow/chattycrow_php !https://coveralls.io/repos/ChattyCrow/chattycrow_php/badge.svg(Coverage Status)!:https://coveralls.io/r/ChattyCrow/chattycrow_php !https://codeclimate.com/github/ChattyCrow/chattycrow_php/badges/gpa.svg!:https://codeclimate.com/github/ChattyCrow/chattycrow_php
+
+h2. Instalation
+
+h3. Add ChattyCrow as a dependency to your *composer.json*
+
+<pre>
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "git@github.com:ChattyCrow/chattycrow_php.git"
+    }
+  ],
+  "require": {
+    "netbrick/chatty-crow": "*"
+  }
+}
+</pre>
+
+h3. Install ChattyCrow
+
+<pre>
+php composer.phar install
+</pre>
